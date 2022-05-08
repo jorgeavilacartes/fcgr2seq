@@ -1,0 +1,9 @@
+tensorflow==2.7
+sklearn
+tqdm
+pandas
+biopython
+pillow
+matplotlib
+snakemake
+pyyaml

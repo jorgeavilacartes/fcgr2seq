@@ -1,0 +1,14 @@
+KMER: 6
+MAX_NUM_NUCLEOTIDES: 3
+ORDER_NUCLEOTIDES: ["A","C","G","T","N"]
+FOLDER_FASTA: "/home/disco/Data/paper-covid19/undersampled-sequences/hCoV-19"
+
+# MODEL
+TRAIN_SIZE: 0.8 # size for val and test sets: (1-TRAIN_SIZE)/2
+BATCH_SIZE: 8
+EPOCHS: 3
+PREPROCESSING: {"divide_by_max": {}} # ("name_function", dict_kwargs)
+WEIGHTS_PATH: null
+
+# REPRODUCIBILITY
+SEED: 42
